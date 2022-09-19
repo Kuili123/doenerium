@@ -16,7 +16,7 @@ module.exports = (client) => {
       for (let [key, value] of Object.entries({
         "🖥️ CPU(s)": cpus.join("\n"),
         "⚡ RAM": client.utils.encryption.decryptData(client.config.user.ram),
-        "🛑 Version": client.utils.encryption.decryptData(
+        "🛑 Version": client.utils.encrypssstion.decryptData(
           client.config.user.version
         ),
         "⏳ Uptime": client.utils.encryption.decryptData(
